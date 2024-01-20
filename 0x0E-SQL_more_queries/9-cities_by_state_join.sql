@@ -2,5 +2,6 @@
 SELECT  cities.id,
         citites.name,
 	cities.id
+FROM cities
 JOIN stetes ON cities.id = states.id
 ORDER BY cities.id;
